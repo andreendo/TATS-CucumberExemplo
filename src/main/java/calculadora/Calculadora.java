@@ -1,9 +1,7 @@
 package calculadora;
 
-/**
- *
- * @author andreendo
- */
+
+
 class Calculadora {
     int num1, num2;
     int res;
@@ -20,7 +18,7 @@ class Calculadora {
     void adicionar() {
         res = num1 + num2;
     }
-
+    
     int getResultado() {
         return res;
     }
