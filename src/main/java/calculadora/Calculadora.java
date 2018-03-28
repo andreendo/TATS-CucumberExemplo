@@ -35,6 +35,14 @@ class Calculadora {
         
         
     }
+    
+    void subtrair(){
+        res = num1 - num2;
+    }
+    
+    void multiplicar (){
+        res = num1 * num2;
+    }
 
     String getMensagem() {
         return mensagem;
