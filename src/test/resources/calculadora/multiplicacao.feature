@@ -5,10 +5,10 @@ Feature: Soma
   para evitar erros simples
 
   Scenario Outline: Multiplicar dois numeros
-    Given que eu entrei <numero1> na calculadora
-    And eu entrei <numero2> na calculadora
-    When eu pressionar add
-    Then o resultado deve ser <saida>
+    Given que eu entrei <numero1> na calc
+    And eu entrei <numero2> na calc
+    When eu pressionar adicionar
+    Then o resultado da multiplicacao deve ser <saida>
 
     Examples: 
       | numero1 | numero2 | saida |
