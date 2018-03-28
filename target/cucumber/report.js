@@ -301,4 +301,56 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/subtracao.feature");
+formatter.feature({
+  "name": "Subtracao",
+  "description": "  Como um usuario\n  eu quero saber a diferença de dois números\n  para evitar errors simples",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Diferenca dois numeros",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "que entrei numero 40 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_entrei_numero_na_calculadora(int)"
+});
+formatter.result({
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat calculadora.SubtracaoSteps.que_entrei_numero_na_calculadora(SubtracaoSteps.java:21)\n\tat ✽.que entrei numero 40 na calculadora(calculadora/subtracao.feature:8)\n",
+  "status": "pending"
+});
+formatter.step({
+  "name": "eu entrei 30 depois",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_entrei_depois(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "eu pressionar subtrair",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_pressionar_subtrair()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "a diferenca deve ser 10",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtracaoSteps.a_diferenca_deve_ser(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
 });
