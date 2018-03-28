@@ -104,6 +104,200 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/multiplicacao.feature");
+formatter.feature({
+  "name": "multiplicacao",
+  "description": "  Como um usuario\n  eu quero saber a multiplicacao de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu digitei \u003cnum1\u003e na calculadora",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "eu digitei \u003cnum2\u003e na calculadora",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "eu pressionar multiplicar",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "o resultado da multiplicacao deve ser \u003cresultado\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "num1",
+        "num2",
+        "resultado"
+      ]
+    },
+    {
+      "cells": [
+        "2",
+        "50",
+        "100"
+      ]
+    },
+    {
+      "cells": [
+        "0",
+        "130",
+        "0"
+      ]
+    },
+    {
+      "cells": [
+        "33",
+        "3",
+        "99"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu digitei 2 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat calculadora.SubtracaoSteps.que_eu_digitei_na_calculadora(SubtracaoSteps.java:22)\r\n\tat ✽.que eu digitei 2 na calculadora(calculadora/multiplicacao.feature:8)\r\n",
+  "status": "pending"
+});
+formatter.step({
+  "name": "eu digitei 50 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "eu pressionar multiplicar",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicar()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "o resultado da multiplicacao deve ser 100",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.scenario({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu digitei 0 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat calculadora.SubtracaoSteps.que_eu_digitei_na_calculadora(SubtracaoSteps.java:22)\r\n\tat ✽.que eu digitei 0 na calculadora(calculadora/multiplicacao.feature:8)\r\n",
+  "status": "pending"
+});
+formatter.step({
+  "name": "eu digitei 130 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "eu pressionar multiplicar",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicar()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "o resultado da multiplicacao deve ser 0",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.scenario({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu digitei 33 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat calculadora.SubtracaoSteps.que_eu_digitei_na_calculadora(SubtracaoSteps.java:22)\r\n\tat ✽.que eu digitei 33 na calculadora(calculadora/multiplicacao.feature:8)\r\n",
+  "status": "pending"
+});
+formatter.step({
+  "name": "eu digitei 3 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "eu pressionar multiplicar",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicar()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "o resultado da multiplicacao deve ser 99",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
 formatter.uri("calculadora/soma.feature");
 formatter.feature({
   "name": "Soma",
@@ -300,5 +494,205 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
+});
+formatter.uri("calculadora/subtracao.feature");
+formatter.feature({
+  "name": "Subtracao",
+  "description": "  Como um usuario\n  eu quero saber a subtracao de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu digitei \u003cnum1\u003e na calculadora",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "eu digitei \u003cnum2\u003e na calculadora",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "eu pressionar subtrair",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "o resultado exibido deve ser \u003cresultado\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "num1",
+        "num2",
+        "resultado"
+      ]
+    },
+    {
+      "cells": [
+        "80",
+        "29",
+        "51"
+      ]
+    },
+    {
+      "cells": [
+        "31",
+        "130",
+        "99"
+      ]
+    },
+    {
+      "cells": [
+        "95",
+        "5",
+        "90"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu digitei 80 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat calculadora.SubtracaoSteps.que_eu_digitei_na_calculadora(SubtracaoSteps.java:22)\r\n\tat ✽.que eu digitei 80 na calculadora(calculadora/subtracao.feature:8)\r\n",
+  "status": "pending"
+});
+formatter.step({
+  "name": "eu digitei 29 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "eu pressionar subtrair",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_pressionar_subtrair()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "o resultado exibido deve ser 51",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtracaoSteps.o_resultado_exibido_deve_ser(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu digitei 31 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat calculadora.SubtracaoSteps.que_eu_digitei_na_calculadora(SubtracaoSteps.java:22)\r\n\tat ✽.que eu digitei 31 na calculadora(calculadora/subtracao.feature:8)\r\n",
+  "status": "pending"
+});
+formatter.step({
+  "name": "eu digitei 130 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "eu pressionar subtrair",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_pressionar_subtrair()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "o resultado exibido deve ser 99",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtracaoSteps.o_resultado_exibido_deve_ser(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu digitei 95 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat calculadora.SubtracaoSteps.que_eu_digitei_na_calculadora(SubtracaoSteps.java:22)\r\n\tat ✽.que eu digitei 95 na calculadora(calculadora/subtracao.feature:8)\r\n",
+  "status": "pending"
+});
+formatter.step({
+  "name": "eu digitei 5 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_digitei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "eu pressionar subtrair",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_pressionar_subtrair()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "o resultado exibido deve ser 90",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtracaoSteps.o_resultado_exibido_deve_ser(int)"
+});
+formatter.result({
+  "status": "skipped"
 });
 });
