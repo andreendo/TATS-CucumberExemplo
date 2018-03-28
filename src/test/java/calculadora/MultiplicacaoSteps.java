@@ -22,7 +22,7 @@ public class MultiplicacaoSteps {
 
     @Given("^tambem entrei com o segundo (\\d+)$")
     public void tambem_entrei_com_o_segundo(int arg2) throws Exception {
-        calc.entrarNumero01(arg2);
+        calc.entrarNumero02(arg2);
     }
 
     @When("^eu precionei multiplicar$")
