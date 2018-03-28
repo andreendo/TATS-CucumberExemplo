@@ -104,6 +104,185 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/multiplicacao.feature");
+formatter.feature({
+  "name": "Multiplicacao",
+  "description": "  Como um usuario\n  eu quero saber a multiplicacao de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Adicionar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu adicionei \u003cnumero1\u003e na calculadora",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "eu adicionei \u003cnumero2\u003e na calculadora",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "eu pressionar multiplicacao",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "o resultado deve ser \u003csaida\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "numero1",
+        "numero2",
+        "saida"
+      ]
+    },
+    {
+      "cells": [
+        "5",
+        "5",
+        "25"
+      ]
+    },
+    {
+      "cells": [
+        "2",
+        "2",
+        "4"
+      ]
+    },
+    {
+      "cells": [
+        "3",
+        "3",
+        "9"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Adicionar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu adicionei 5 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "eu adicionei 5 na calculadora",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "eu pressionar multiplicacao",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "o resultado deve ser 25",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SomaSteps.o_resultado_deve_ser(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "name": "Adicionar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu adicionei 2 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "eu adicionei 2 na calculadora",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "eu pressionar multiplicacao",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "o resultado deve ser 4",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SomaSteps.o_resultado_deve_ser(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "name": "Adicionar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu adicionei 3 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "eu adicionei 3 na calculadora",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "eu pressionar multiplicacao",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "o resultado deve ser 9",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SomaSteps.o_resultado_deve_ser(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
 formatter.uri("calculadora/soma.feature");
 formatter.feature({
   "name": "Soma",
