@@ -14,3 +14,4 @@ Feature: Multiplicacao
             | primeiroNumero | segundoNumero | resultado |
             | 1              | 2             | 2         |
             | 2              | 4             | 8         |
+            | -1             | 10            | -10       |
