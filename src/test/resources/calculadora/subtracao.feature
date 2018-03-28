@@ -14,5 +14,4 @@ Feature: Subtracao
             | valor1 | valor2 | resultado |
             | 10     | 5      | 5         |
             | 12     | 3      | 9         |
-            | 3      | 8      | -5        |
       

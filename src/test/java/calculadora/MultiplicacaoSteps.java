@@ -19,6 +19,7 @@ public class MultiplicacaoSteps {
     public void que_eu_entrei_para_ser_multiplicado(int arg1) throws Exception {
         calc.entrarNumero01(arg1);
     }
+    
 
     @Given("^tambem entrei com o segundo (\\d+)$")
     public void tambem_entrei_com_o_segundo(int arg2) throws Exception {
