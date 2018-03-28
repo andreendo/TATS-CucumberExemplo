@@ -128,7 +128,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "name": "o resultado deve ser \u003csaida\u003e",
+  "name": "o resultado tem ser \u003csaida\u003e",
   "keyword": "Then "
 });
 formatter.examples({
@@ -175,35 +175,41 @@ formatter.step({
   "name": "que eu adicionei 5 na calculadora",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_adicionei_na_calculadora(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu adicionei 5 na calculadora",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_adicionei_na_calculadora(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu pressionar multiplicacao",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicacao()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "o resultado deve ser 25",
+  "name": "o resultado tem ser 25",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SomaSteps.o_resultado_deve_ser(int)"
+  "location": "MultiplicacaoSteps.o_resultado_deve_ser(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Adicionar dois numeros",
@@ -214,35 +220,41 @@ formatter.step({
   "name": "que eu adicionei 2 na calculadora",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_adicionei_na_calculadora(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu adicionei 2 na calculadora",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_adicionei_na_calculadora(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu pressionar multiplicacao",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicacao()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "o resultado deve ser 4",
+  "name": "o resultado tem ser 4",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SomaSteps.o_resultado_deve_ser(int)"
+  "location": "MultiplicacaoSteps.o_resultado_deve_ser(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Adicionar dois numeros",
@@ -253,35 +265,41 @@ formatter.step({
   "name": "que eu adicionei 3 na calculadora",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_adicionei_na_calculadora(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu adicionei 3 na calculadora",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_adicionei_na_calculadora(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu pressionar multiplicacao",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicacao()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "o resultado deve ser 9",
+  "name": "o resultado tem ser 9",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SomaSteps.o_resultado_deve_ser(int)"
+  "location": "MultiplicacaoSteps.o_resultado_deve_ser(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.uri("calculadora/soma.feature");
 formatter.feature({

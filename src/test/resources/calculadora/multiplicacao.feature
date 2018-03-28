@@ -5,10 +5,10 @@ Feature: Multiplicacao
   para evitar erros simples
 
   Scenario Outline: Adicionar dois numeros
-    Given que eu entrei <numero1> na calculadora
-    And eu entrei <numero2> na calculadora
+    Given que eu adicionei <numero1> na calculadora
+    And eu adicionei <numero2> na calculadora
     When eu pressionar multiplicacao
-    Then o resultado deve ser <saida>
+    Then o resultado tem ser <saida>
 
     Examples: 
       | numero1 | numero2 | saida |

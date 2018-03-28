@@ -5,10 +5,11 @@ package calculadora;
  * @author andreendo
  */
 class Calculadora {
+
     int num1, num2;
     int res;
     String mensagem;
-    
+
     void entrarNumero01(int num) {
         num1 = num;
     }
@@ -26,18 +27,21 @@ class Calculadora {
     }
 
     void dividir() {
-        if(num2 == 0) {
+        if (num2 == 0) {
             res = -1;
             mensagem = "erro: divisao por zero";
-        }
-        else
+        } else {
             res = num1 / num2;
-        
-        
+        }
+
     }
 
     String getMensagem() {
         return mensagem;
     }
-    
+
+    void multiplicacao() {
+        res = num1 * num2;
+    }
+
 }
