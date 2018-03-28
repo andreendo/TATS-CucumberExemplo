@@ -301,4 +301,49 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/subtracao.feature");
+formatter.feature({
+  "name": "subtracao",
+  "description": "  Como um usuario\n  eu quero saber a subratração de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "que entrei com o numero 50",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "entrei com o numero 18",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "pressionei o botão de subtrair",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "o resultado deve ser 32",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SomaSteps.o_resultado_deve_ser(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
 });
