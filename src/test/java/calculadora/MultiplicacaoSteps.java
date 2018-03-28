@@ -7,11 +7,7 @@ import cucumber.api.java.en.When;
 
 import static org.junit.Assert.*;
 
-/**
- *
- * @author andreendo
- */
-public class SomaSteps {
+public class MultiplicacaoSteps {
 
     Calculadora calc = new Calculadora();
     
@@ -27,7 +23,7 @@ public class SomaSteps {
 
     @When("^eu pressionar add$")
     public void eu_pressionar_add() throws Exception {
-        calc.adicionar();
+        calc.multiplicar();
     }
 
     @Then("^o resultado deve ser (.*)$")
