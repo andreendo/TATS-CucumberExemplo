@@ -104,6 +104,49 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/multiplicacao.feature");
+formatter.feature({
+  "name": "Multiplicacao",
+  "description": "  Como um usuario\n  eu quero saber a multiplicacao de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "multiplicar dois numeros inteiros",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "que foi informado 10",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "entrou com 6",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "eu pressionei multiplica",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "o resultado da multiplicacao e 5",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
 formatter.uri("calculadora/soma.feature");
 formatter.feature({
   "name": "Soma",
