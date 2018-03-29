@@ -199,8 +199,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.eu_pressiono_multiplicar()"
 });
 formatter.result({
-  "error_message": "java.lang.UnsupportedOperationException: Not supported yet.\n\tat calculadora.Calculadora.multiplicar(Calculadora.java:48)\n\tat calculadora.MultiplicacaoSteps.eu_pressiono_multiplicar(MultiplicacaoSteps.java:33)\n\tat ✽.eu pressiono multiplicar(calculadora/multiplicacao.feature:12)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "o produto deve ser 600",
@@ -210,7 +209,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.o_produto_deve_ser(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Multiplicar dois numeros",
@@ -245,8 +244,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.eu_pressiono_multiplicar()"
 });
 formatter.result({
-  "error_message": "java.lang.UnsupportedOperationException: Not supported yet.\n\tat calculadora.Calculadora.multiplicar(Calculadora.java:48)\n\tat calculadora.MultiplicacaoSteps.eu_pressiono_multiplicar(MultiplicacaoSteps.java:33)\n\tat ✽.eu pressiono multiplicar(calculadora/multiplicacao.feature:12)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "o produto deve ser 10",
@@ -256,7 +254,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.o_produto_deve_ser(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Multiplicar dois numeros",
@@ -291,8 +289,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.eu_pressiono_multiplicar()"
 });
 formatter.result({
-  "error_message": "java.lang.UnsupportedOperationException: Not supported yet.\n\tat calculadora.Calculadora.multiplicar(Calculadora.java:48)\n\tat calculadora.MultiplicacaoSteps.eu_pressiono_multiplicar(MultiplicacaoSteps.java:33)\n\tat ✽.eu pressiono multiplicar(calculadora/multiplicacao.feature:12)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "o produto deve ser 400",
@@ -302,7 +299,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.o_produto_deve_ser(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.uri("calculadora/soma.feature");
 formatter.feature({
