@@ -106,7 +106,7 @@ formatter.result({
 });
 formatter.uri("calculadora/multiplicacao.feature");
 formatter.feature({
-  "name": "Soma",
+  "name": "Multiplicacao",
   "description": "  Como um usuario\n  eu quero saber a multiplicao dois numeros\n  para evitar erros simples",
   "keyword": "Feature"
 });
@@ -124,7 +124,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "name": "eu pressionar adicionar",
+  "name": "eu pressionar multiplicar",
   "keyword": "When "
 });
 formatter.step({
@@ -176,7 +176,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.que_eu_entrei_na_calculadora(int)"
+  "location": "MultiplicacaoSteps.que_entrei_na_calc(int)"
 });
 formatter.result({
   "status": "passed"
@@ -186,17 +186,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.eu_entrei_na_calculadora(int)"
+  "location": "MultiplicacaoSteps.eu_entrei_na_calc(int)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "eu pressionar adicionar",
+  "name": "eu pressionar multiplicar",
   "keyword": "When "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.eu_pressionar_add()"
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicar()"
 });
 formatter.result({
   "status": "passed"
@@ -206,7 +206,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.o_resultado_deve_ser(int)"
+  "location": "MultiplicacaoSteps.o_resultado_da_multiplicacao_deve_ser(int)"
 });
 formatter.result({
   "status": "passed"
@@ -221,7 +221,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.que_eu_entrei_na_calculadora(int)"
+  "location": "MultiplicacaoSteps.que_entrei_na_calc(int)"
 });
 formatter.result({
   "status": "passed"
@@ -231,17 +231,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.eu_entrei_na_calculadora(int)"
+  "location": "MultiplicacaoSteps.eu_entrei_na_calc(int)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "eu pressionar adicionar",
+  "name": "eu pressionar multiplicar",
   "keyword": "When "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.eu_pressionar_add()"
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicar()"
 });
 formatter.result({
   "status": "passed"
@@ -251,7 +251,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.o_resultado_deve_ser(int)"
+  "location": "MultiplicacaoSteps.o_resultado_da_multiplicacao_deve_ser(int)"
 });
 formatter.result({
   "status": "passed"
@@ -266,7 +266,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.que_eu_entrei_na_calculadora(int)"
+  "location": "MultiplicacaoSteps.que_entrei_na_calc(int)"
 });
 formatter.result({
   "status": "passed"
@@ -276,17 +276,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.eu_entrei_na_calculadora(int)"
+  "location": "MultiplicacaoSteps.eu_entrei_na_calc(int)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "eu pressionar adicionar",
+  "name": "eu pressionar multiplicar",
   "keyword": "When "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.eu_pressionar_add()"
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicar()"
 });
 formatter.result({
   "status": "passed"
@@ -296,7 +296,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MultiplicacaoSteps.o_resultado_deve_ser(int)"
+  "location": "MultiplicacaoSteps.o_resultado_da_multiplicacao_deve_ser(int)"
 });
 formatter.result({
   "status": "passed"
@@ -494,6 +494,203 @@ formatter.step({
 });
 formatter.match({
   "location": "SomaSteps.o_resultado_deve_ser(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("calculadora/subtracao.feature");
+formatter.feature({
+  "name": "Subtracao",
+  "description": "  Um usuario\n  Vou querer saber a subtracao entre dois numeros\n  para evitar erros",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "eu entrar com o primeiro numero \u003cnumero1\u003e",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "depois entrar com o segundo numero \u003cnumero2\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "vou precionar subtrair",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "o resultado da subtracao deve ser \u003csaida\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "numero1",
+        "numero2",
+        "saida"
+      ]
+    },
+    {
+      "cells": [
+        "70",
+        "70",
+        "0"
+      ]
+    },
+    {
+      "cells": [
+        "20",
+        "15",
+        "5"
+      ]
+    },
+    {
+      "cells": [
+        "10",
+        "2",
+        "8"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "eu entrar com o primeiro numero 70",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_entrar_com_o_primeiro_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "depois entrar com o segundo numero 70",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.vou_entrar_com_o_segundo_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "vou precionar subtrair",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtracaoSteps.vou_precionar_subtrair()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado da subtracao deve ser 0",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtracaoSteps.o_resultado_da_subtracao_deve_ser(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "eu entrar com o primeiro numero 20",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_entrar_com_o_primeiro_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "depois entrar com o segundo numero 15",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.vou_entrar_com_o_segundo_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "vou precionar subtrair",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtracaoSteps.vou_precionar_subtrair()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado da subtracao deve ser 5",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtracaoSteps.o_resultado_da_subtracao_deve_ser(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "eu entrar com o primeiro numero 10",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_entrar_com_o_primeiro_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "depois entrar com o segundo numero 2",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.vou_entrar_com_o_segundo_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "vou precionar subtrair",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtracaoSteps.vou_precionar_subtrair()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado da subtracao deve ser 8",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtracaoSteps.o_resultado_da_subtracao_deve_ser(int)"
 });
 formatter.result({
   "status": "passed"

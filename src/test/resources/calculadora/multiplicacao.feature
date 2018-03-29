@@ -1,5 +1,5 @@
 # language: en
-Feature: Soma
+Feature: Multiplicacao
   Como um usuario
   eu quero saber a multiplicao dois numeros
   para evitar erros simples
@@ -7,7 +7,7 @@ Feature: Soma
   Scenario Outline: Multiplicar dois numeros
     Given que eu entrei <numero1> na calc
     And eu entrei <numero2> na calc
-    When eu pressionar adicionar
+    When eu pressionar multiplicar
     Then o resultado da multiplicacao deve ser <saida>
 
     Examples: 
