@@ -104,6 +104,53 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/multiplicacao.feature");
+formatter.feature({
+  "name": "Multiplicacao",
+  "description": "  Como um usuario\n  eu quero saber amultiplicao de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "multiplicar dois numeros inteiros",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "eu forneci o valor 4",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_eu_entrei_com(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "forneci o segundo valor 20",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.entrei_com(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu selecionar multiplicacao",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "o resultado da multiplicacao deve ser 80",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
 formatter.uri("calculadora/soma.feature");
 formatter.feature({
   "name": "Soma",
@@ -297,6 +344,57 @@ formatter.step({
 });
 formatter.match({
   "location": "SomaSteps.o_resultado_deve_ser(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("calculadora/subtracao.feature");
+formatter.feature({
+  "name": "Subtracao",
+  "description": "  Como um usuario\n  eu quero saber a subtracao de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "subtrair dois numeros inteiros",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "eu forneci o valor 75",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_eu_entrei_com(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "forneci o segundo valor 23",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.entrei_com(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu selecionar subtracao",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_pressionei_subtrair()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado da subtracao deve ser 52",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtracaoSteps.o_resultado_da_subtracao_deve_ser(int)"
 });
 formatter.result({
   "status": "passed"
