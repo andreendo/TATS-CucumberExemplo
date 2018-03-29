@@ -31,11 +31,17 @@ class Calculadora {
             mensagem = "erro: divisao por zero";
         }
         else
-            res = num1 / num2;
-        
-        
+            res = num1 / num2; 
     }
 
+    void multiplicar(){
+        res = num1 * num2;
+    }
+    
+    void subtrair(){
+        res = num1 - num2;
+    }
+    
     String getMensagem() {
         return mensagem;
     }
