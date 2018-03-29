@@ -20,6 +20,9 @@ class Calculadora {
     void adicionar() {
         res = num1 + num2;
     }
+    void multiplicar() {
+        res = num1 * num2;
+    }
 
     int getResultado() {
         return res;
