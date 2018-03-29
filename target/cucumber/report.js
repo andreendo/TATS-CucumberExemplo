@@ -316,34 +316,40 @@ formatter.step({
   "name": "que entrei com o numero 50",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "Subtracao.que_entrei_com_o_numero(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "entrei com o numero 18",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "Subtracao.entrei_com_o_numero(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "pressionei o botão de subtrair",
+  "name": "pressionar o botão de subtrair",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "Subtracao.pressionei_o_botão_de_subtrair()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "o resultado deve ser 32",
+  "name": "o resultado deve exatamente ser 32",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SomaSteps.o_resultado_deve_ser(int)"
+  "location": "Subtracao.o_resultado_deve_exatamente_ser(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });

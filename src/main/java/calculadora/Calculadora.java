@@ -17,12 +17,12 @@ class Calculadora {
         num2 = num;
     }
 
-    void adicionar() {
-        res = num1 + num2;
-    }
-
     int getResultado() {
         return res;
+    }
+    
+    void adicionar() {
+        res = num1 + num2;
     }
 
     void dividir() {
@@ -32,10 +32,11 @@ class Calculadora {
         }
         else
             res = num1 / num2;
-        
-        
     }
 
+    void subtrair(){
+        res = num1 - num2;
+    }
     String getMensagem() {
         return mensagem;
     }
