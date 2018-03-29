@@ -104,6 +104,206 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/multiplicacao.feature");
+formatter.feature({
+  "name": "Multiplicacao",
+  "description": "  Como um usuario\n  eu quero saber o produto de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu entrar com \u003cinput_1\u003e na calculadora",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "que eu também entrar com \u003cinput_2\u003e na calculadora",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "eu pressiono multiplicar",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "o produto deve ser \u003coutput\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "input_1",
+        "input_2",
+        "output"
+      ]
+    },
+    {
+      "cells": [
+        "20",
+        "30",
+        "50"
+      ]
+    },
+    {
+      "cells": [
+        "2",
+        "5",
+        "7"
+      ]
+    },
+    {
+      "cells": [
+        "0",
+        "40",
+        "40"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu entrar com 20 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(int)"
+});
+formatter.result({
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat calculadora.MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(MultiplicacaoSteps.java:24)\n\tat ✽.que eu entrar com 20 na calculadora(calculadora/multiplicacao.feature:10)\n",
+  "status": "pending"
+});
+formatter.step({
+  "name": "que eu também entrar com 30 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_também_entrar_com_na_calculadora(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "eu pressiono multiplicar",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressiono_multiplicar()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "o produto deve ser 50",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.o_produto_deve_ser(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu entrar com 2 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(int)"
+});
+formatter.result({
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat calculadora.MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(MultiplicacaoSteps.java:24)\n\tat ✽.que eu entrar com 2 na calculadora(calculadora/multiplicacao.feature:10)\n",
+  "status": "pending"
+});
+formatter.step({
+  "name": "que eu também entrar com 5 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_também_entrar_com_na_calculadora(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "eu pressiono multiplicar",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressiono_multiplicar()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "o produto deve ser 7",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.o_produto_deve_ser(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu entrar com 0 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(int)"
+});
+formatter.result({
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat calculadora.MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(MultiplicacaoSteps.java:24)\n\tat ✽.que eu entrar com 0 na calculadora(calculadora/multiplicacao.feature:10)\n",
+  "status": "pending"
+});
+formatter.step({
+  "name": "que eu também entrar com 40 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_também_entrar_com_na_calculadora(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "eu pressiono multiplicar",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressiono_multiplicar()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "o produto deve ser 40",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.o_produto_deve_ser(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
 formatter.uri("calculadora/soma.feature");
 formatter.feature({
   "name": "Soma",
