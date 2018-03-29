@@ -9,9 +9,3 @@ Feature: Multiplicacao
     And entrei com <numero2>
     When eu pressionei multiplicar
     Then o resultado da multiplicacao deve ser <saida>
-
-    Examples: 
-      | numero1  | numero2 | saida |
-      |  20      |  10     |  200  |
-      |  10      |   5     |   50  |
-      |   3      |   3     |    9  |
