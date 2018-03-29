@@ -498,4 +498,49 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/subtracao.feature");
+formatter.feature({
+  "name": "Subtracao",
+  "description": "  Como um usuario\n  eu quero saber a subtracao de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "que eu coloquei o 10",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "colocquei o 5",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "eu pressionei dividir",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DivisaoSteps.eu_pressionei_dividir()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "o resultado da subtracao deve ser 5",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
 });
