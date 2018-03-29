@@ -104,6 +104,203 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/multiplicacao.feature");
+formatter.feature({
+  "name": "Multiplicacao",
+  "description": "  Como um usuario\n  eu quero saber a multiplicacao de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Adicionar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu entrei \u003cnumero1\u003e na calculadora multiplicacao",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "eu entrei \u003cnumero2\u003e na calculadora multiplicacao",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "eu pressionar mult multiplicacao",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "o resultado da multiplicacao deve ser \u003csaida\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "numero1",
+        "numero2",
+        "saida"
+      ]
+    },
+    {
+      "cells": [
+        "5",
+        "10",
+        "50"
+      ]
+    },
+    {
+      "cells": [
+        "2",
+        "8",
+        "16"
+      ]
+    },
+    {
+      "cells": [
+        "10",
+        "10",
+        "100"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Adicionar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu entrei 5 na calculadora multiplicacao",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_entrei_na_calculadora_multiplicacao$(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu entrei 10 na calculadora multiplicacao",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_entrei_na_calculadora_multiplicacao$(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar mult multiplicacao",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_mult_multiplicacao$()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado da multiplicacao deve ser 50",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.o_resultado_da_multiplicacao_deve_ser(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Adicionar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu entrei 2 na calculadora multiplicacao",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_entrei_na_calculadora_multiplicacao$(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu entrei 8 na calculadora multiplicacao",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_entrei_na_calculadora_multiplicacao$(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar mult multiplicacao",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_mult_multiplicacao$()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado da multiplicacao deve ser 16",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.o_resultado_da_multiplicacao_deve_ser(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Adicionar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu entrei 10 na calculadora multiplicacao",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.que_eu_entrei_na_calculadora_multiplicacao$(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu entrei 10 na calculadora multiplicacao",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_entrei_na_calculadora_multiplicacao$(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar mult multiplicacao",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_mult_multiplicacao$()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado da multiplicacao deve ser 100",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.o_resultado_da_multiplicacao_deve_ser(int)"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.uri("calculadora/soma.feature");
 formatter.feature({
   "name": "Soma",
