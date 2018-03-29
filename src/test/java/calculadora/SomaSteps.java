@@ -35,4 +35,6 @@ public class SomaSteps {
         int res = calc.getResultado();
         assertEquals(num, res);
     }
+    
+    
 }

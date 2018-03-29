@@ -20,7 +20,10 @@ class Calculadora {
     void adicionar() {
         res = num1 + num2;
     }
-
+    
+    void subtracao(){
+        res = num1 - num2;
+    }
     int getResultado() {
         return res;
     }
@@ -33,11 +36,15 @@ class Calculadora {
         else
             res = num1 / num2;
         
-        
+     
     }
 
     String getMensagem() {
         return mensagem;
+    }
+
+    void multiplicar() {
+        res = num1 * num2;
     }
     
 }
