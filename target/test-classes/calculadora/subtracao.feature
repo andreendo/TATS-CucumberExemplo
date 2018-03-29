@@ -13,5 +13,5 @@ Feature: Subtracao
     Examples: 
       | num1    | num2    | resultado |
       | 80      | 29      | 51        |
-      | 31      | 130     | 99       |
+      | 130     | 31      | 99        |
       | 95      | 5       | 90        |
