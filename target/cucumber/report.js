@@ -179,8 +179,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(int)"
 });
 formatter.result({
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat calculadora.MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(MultiplicacaoSteps.java:24)\n\tat ✽.que eu entrar com 20 na calculadora(calculadora/multiplicacao.feature:10)\n",
-  "status": "pending"
+  "status": "passed"
 });
 formatter.step({
   "name": "que eu também entrar com 30 na calculadora",
@@ -190,7 +189,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.que_eu_também_entrar_com_na_calculadora(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu pressiono multiplicar",
@@ -200,7 +199,8 @@ formatter.match({
   "location": "MultiplicacaoSteps.eu_pressiono_multiplicar()"
 });
 formatter.result({
-  "status": "skipped"
+  "error_message": "java.lang.UnsupportedOperationException: Not supported yet.\n\tat calculadora.Calculadora.multiplicar(Calculadora.java:48)\n\tat calculadora.MultiplicacaoSteps.eu_pressiono_multiplicar(MultiplicacaoSteps.java:33)\n\tat ✽.eu pressiono multiplicar(calculadora/multiplicacao.feature:12)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "o produto deve ser 50",
@@ -225,8 +225,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(int)"
 });
 formatter.result({
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat calculadora.MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(MultiplicacaoSteps.java:24)\n\tat ✽.que eu entrar com 2 na calculadora(calculadora/multiplicacao.feature:10)\n",
-  "status": "pending"
+  "status": "passed"
 });
 formatter.step({
   "name": "que eu também entrar com 5 na calculadora",
@@ -236,7 +235,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.que_eu_também_entrar_com_na_calculadora(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu pressiono multiplicar",
@@ -246,7 +245,8 @@ formatter.match({
   "location": "MultiplicacaoSteps.eu_pressiono_multiplicar()"
 });
 formatter.result({
-  "status": "skipped"
+  "error_message": "java.lang.UnsupportedOperationException: Not supported yet.\n\tat calculadora.Calculadora.multiplicar(Calculadora.java:48)\n\tat calculadora.MultiplicacaoSteps.eu_pressiono_multiplicar(MultiplicacaoSteps.java:33)\n\tat ✽.eu pressiono multiplicar(calculadora/multiplicacao.feature:12)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "o produto deve ser 7",
@@ -271,8 +271,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(int)"
 });
 formatter.result({
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat calculadora.MultiplicacaoSteps.que_eu_entrar_com_na_calculadora(MultiplicacaoSteps.java:24)\n\tat ✽.que eu entrar com 0 na calculadora(calculadora/multiplicacao.feature:10)\n",
-  "status": "pending"
+  "status": "passed"
 });
 formatter.step({
   "name": "que eu também entrar com 40 na calculadora",
@@ -282,7 +281,7 @@ formatter.match({
   "location": "MultiplicacaoSteps.que_eu_também_entrar_com_na_calculadora(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu pressiono multiplicar",
@@ -292,7 +291,8 @@ formatter.match({
   "location": "MultiplicacaoSteps.eu_pressiono_multiplicar()"
 });
 formatter.result({
-  "status": "skipped"
+  "error_message": "java.lang.UnsupportedOperationException: Not supported yet.\n\tat calculadora.Calculadora.multiplicar(Calculadora.java:48)\n\tat calculadora.MultiplicacaoSteps.eu_pressiono_multiplicar(MultiplicacaoSteps.java:33)\n\tat ✽.eu pressiono multiplicar(calculadora/multiplicacao.feature:12)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "o produto deve ser 40",

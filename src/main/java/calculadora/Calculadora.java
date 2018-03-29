@@ -43,5 +43,9 @@ class Calculadora {
     void subtrair() {
         res = num1 - num2;
     }
+
+    void multiplicar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

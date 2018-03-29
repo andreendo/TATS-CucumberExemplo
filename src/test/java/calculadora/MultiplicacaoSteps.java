@@ -20,26 +20,23 @@ public class MultiplicacaoSteps {
     
     @Given("^que eu entrar com (\\d+) na calculadora$")
     public void que_eu_entrar_com_na_calculadora(int arg1) throws Exception {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        calc.entrarNumero01(arg1);
     }
 
     @Given("^que eu também entrar com (\\d+) na calculadora$")
     public void que_eu_também_entrar_com_na_calculadora(int arg1) throws Exception {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        calc.entrarNumero02(arg1);
     }
 
     @When("^eu pressiono multiplicar$")
     public void eu_pressiono_multiplicar() throws Exception {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        calc.multiplicar();
     }
 
     @Then("^o produto deve ser (\\d+)$")
-    public void o_produto_deve_ser(int arg1) throws Exception {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void o_produto_deve_ser(int num) throws Exception {
+        int res = calc.getResultado();
+        assertEquals(num, res);
     }
 
     
