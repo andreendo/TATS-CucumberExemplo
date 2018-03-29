@@ -39,5 +39,9 @@ class Calculadora {
     String getMensagem() {
         return mensagem;
     }
+
+    void subtrair() {
+        res = num1 - num2;
+    }
     
 }

@@ -301,4 +301,201 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/subtracao.feature");
+formatter.feature({
+  "name": "Subtraçao",
+  "description": "  Como um usuario\n  eu quero saber a subtraçao de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu informei \u003cnumero1\u003e na calculadora",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "eu informei \u003cnumero2\u003e na calculadora",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "eu pressionar sub",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "o resultado e \u003csaida\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "numero1",
+        "numero2",
+        "saida"
+      ]
+    },
+    {
+      "cells": [
+        "50",
+        "40",
+        "10"
+      ]
+    },
+    {
+      "cells": [
+        "15",
+        "10",
+        "5"
+      ]
+    },
+    {
+      "cells": [
+        "47",
+        "11",
+        "36"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu informei 50 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtraiSteps.que_eu_informei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu informei 40 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtraiSteps.eu_informei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar sub",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtraiSteps.eu_pressionar_sub()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado e 10",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtraiSteps.o_resultado_e(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu informei 15 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtraiSteps.que_eu_informei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu informei 10 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtraiSteps.eu_informei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar sub",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtraiSteps.eu_pressionar_sub()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado e 5",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtraiSteps.o_resultado_e(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que eu informei 47 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtraiSteps.que_eu_informei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu informei 11 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtraiSteps.eu_informei_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar sub",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtraiSteps.eu_pressionar_sub()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado e 36",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtraiSteps.o_resultado_e(int)"
+});
+formatter.result({
+  "status": "passed"
+});
 });
