@@ -498,4 +498,201 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/subtracao.feature");
+formatter.feature({
+  "name": "Subtracao",
+  "description": "  Como um usuario\n  eu quero saber a subtracao de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que enrei com o numero \u003cnumero1\u003e na calculadora",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "e depois com o numero \u003cnumero2\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "eu pressionar subtrair",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "o resultado mostrado sera \u003csaida\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "numero1",
+        "numero2",
+        "saida"
+      ]
+    },
+    {
+      "cells": [
+        "5",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "cells": [
+        "10",
+        "5",
+        "5"
+      ]
+    },
+    {
+      "cells": [
+        "10",
+        "3",
+        "7"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que enrei com o numero 5 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_enrei_com_o_numero_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "e depois com o numero 2",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.e_depois_com_o_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar subtrair",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_pressionar_subtrair()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado mostrado sera 3",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtracaoSteps.o_resultado_mostrado_sera(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que enrei com o numero 10 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_enrei_com_o_numero_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "e depois com o numero 5",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.e_depois_com_o_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar subtrair",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_pressionar_subtrair()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado mostrado sera 5",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtracaoSteps.o_resultado_mostrado_sera(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Subtrair dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "que enrei com o numero 10 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "SubtracaoSteps.que_enrei_com_o_numero_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "e depois com o numero 3",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SubtracaoSteps.e_depois_com_o_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar subtrair",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SubtracaoSteps.eu_pressionar_subtrair()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado mostrado sera 7",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SubtracaoSteps.o_resultado_mostrado_sera(int)"
+});
+formatter.result({
+  "status": "passed"
+});
 });
