@@ -119,33 +119,41 @@ formatter.step({
   "name": "que foi informado 10",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicaSteps.que_foi_informado(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "entrou com 6",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicaSteps.entrou_com(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu pressionei multiplica",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicaSteps.eu_pressionei_multiplica()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "o resultado da multiplicacao e 5",
+  "name": "o resultado da multiplicacao e 60",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "MultiplicaSteps.o_resultado_da_multiplicacao_e(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.uri("calculadora/soma.feature");
 formatter.feature({

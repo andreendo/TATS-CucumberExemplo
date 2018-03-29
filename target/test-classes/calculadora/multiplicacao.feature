@@ -8,4 +8,4 @@ Feature: Multiplicacao
     Given que foi informado 10
     And entrou com 6
     When eu pressionei multiplica
-    Then o resultado da multiplicacao e 5
+    Then o resultado da multiplicacao e 60
