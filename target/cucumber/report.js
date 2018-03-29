@@ -320,8 +320,7 @@ formatter.match({
   "location": "SubtracaoSteps.que_entrei_numero_na_calculadora(int)"
 });
 formatter.result({
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat calculadora.SubtracaoSteps.que_entrei_numero_na_calculadora(SubtracaoSteps.java:21)\n\tat ✽.que entrei numero 40 na calculadora(calculadora/subtracao.feature:8)\n",
-  "status": "pending"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu entrei 30 depois",
@@ -331,7 +330,7 @@ formatter.match({
   "location": "SubtracaoSteps.eu_entrei_depois(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "eu pressionar subtrair",
@@ -341,7 +340,7 @@ formatter.match({
   "location": "SubtracaoSteps.eu_pressionar_subtrair()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "a diferenca deve ser 10",
@@ -351,6 +350,6 @@ formatter.match({
   "location": "SubtracaoSteps.a_diferenca_deve_ser(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });

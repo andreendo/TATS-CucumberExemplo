@@ -17,27 +17,23 @@ public class SubtracaoSteps {
 
     @Given("^que entrei numero (.*) na calculadora$")
     public void que_entrei_numero_na_calculadora(int arg1) throws Exception {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        calc.entrarNumero01(arg1);
     }
 
 
     @Given("^eu entrei (.*) depois$")
     public void eu_entrei_depois(int arg1) throws Exception {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        calc.entrarNumero02(arg1);
     }
 
     @When("^eu pressionar subtrair$")
     public void eu_pressionar_subtrair() throws Exception {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        calc.subtrair();
     }
 
-
     @Then("^a diferenca deve ser (.*)$")
-    public void a_diferenca_deve_ser(int arg1) throws Exception {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void a_diferenca_deve_ser(int result) throws Exception {
+        int res = calc.getResultado();
+        assertEquals(result, res);
     }
 }
