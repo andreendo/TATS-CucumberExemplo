@@ -23,7 +23,7 @@ public class SubtracaoSteps {
 
     @When("^eu apertar em subrair$")
     public void eu_pressionar_add() throws Exception {
-        calc.subtrair();
+        calc.subtracao();
     }
 
     @Then("^o resultado da subtracao deve ser (.*)$")
