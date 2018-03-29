@@ -513,34 +513,40 @@ formatter.step({
   "name": "que eu coloquei o 10",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "SubtracaoSteps.que_eu_coloquei_o(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "colocquei o 5",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "SubtracaoSteps.colocquei_o(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "eu pressionei dividir",
+  "name": "eu pressionei subtracao",
   "keyword": "When "
 });
 formatter.match({
-  "location": "DivisaoSteps.eu_pressionei_dividir()"
+  "location": "SubtracaoSteps.eu_pressionei_subtracao()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "o resultado da subtracao deve ser 5",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "SubtracaoSteps.o_resultado_deve_ser(int)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 });

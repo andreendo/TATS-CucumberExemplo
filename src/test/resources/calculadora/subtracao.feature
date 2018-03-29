@@ -7,5 +7,5 @@ Feature: Subtracao
   Scenario: subtrair dois numeros
     Given que eu coloquei o 10
     And colocquei o 5
-    When eu pressionei dividir
+    When eu pressionei subtracao
     Then o resultado da subtracao deve ser 5
