@@ -5,8 +5,8 @@ Feature: Multiplicação
   para evitar erros simples
 
   Scenario Outline: Multiplicar dois numeros
-    Given eu entrei com o <numero1> na calculadora
-    And entrei com o <numero2> na calculadora
+    Given eu coloquei o <numero1> na calculadora
+    And em seguida com o <numero2> na calculadora
     When eu pressionar multiplicar
     Then o resultado esperado é <resultado>
 

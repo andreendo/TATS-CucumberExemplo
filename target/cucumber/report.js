@@ -104,6 +104,203 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("calculadora/multiplicacao.feature");
+formatter.feature({
+  "name": "Multiplicação",
+  "description": "  Como um usuario\n  eu quero saber a multiplicação de dois numeros\n  para evitar erros simples",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "eu coloquei o \u003cnumero1\u003e na calculadora",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "em seguida com o \u003cnumero2\u003e na calculadora",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "eu pressionar multiplicar",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "o resultado esperado é \u003cresultado\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "numero1",
+        "numero2",
+        "resultado"
+      ]
+    },
+    {
+      "cells": [
+        "2",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "cells": [
+        "7",
+        "8",
+        "56"
+      ]
+    },
+    {
+      "cells": [
+        "11",
+        "11",
+        "121"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "eu coloquei o 2 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_coloquei_o_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "em seguida com o 3 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.em_seguida_com_o_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar multiplicar",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado esperado é 6",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.o_resultado_esperado_é(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "eu coloquei o 7 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_coloquei_o_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "em seguida com o 8 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.em_seguida_com_o_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar multiplicar",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado esperado é 56",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.o_resultado_esperado_é(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Multiplicar dois numeros",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "eu coloquei o 11 na calculadora",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_coloquei_o_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "em seguida com o 11 na calculadora",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.em_seguida_com_o_na_calculadora(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu pressionar multiplicar",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.eu_pressionar_multiplicar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "o resultado esperado é 121",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MultiplicacaoSteps.o_resultado_esperado_é(int)"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.uri("calculadora/soma.feature");
 formatter.feature({
   "name": "Soma",
