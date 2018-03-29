@@ -16,4 +16,3 @@ Feature: Divisao
     When eu pressionei dividir
     Then o resultado da divisao dever ser um numero negativo
     And a mensagem "erro: divisao por zero" deve aparecer
-
