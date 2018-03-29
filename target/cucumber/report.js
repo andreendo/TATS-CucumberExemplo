@@ -147,21 +147,21 @@ formatter.examples({
       "cells": [
         "20",
         "30",
-        "50"
+        "600"
       ]
     },
     {
       "cells": [
         "2",
         "5",
-        "7"
+        "10"
       ]
     },
     {
       "cells": [
-        "0",
+        "10",
         "40",
-        "40"
+        "400"
       ]
     }
   ]
@@ -203,7 +203,7 @@ formatter.result({
   "status": "failed"
 });
 formatter.step({
-  "name": "o produto deve ser 50",
+  "name": "o produto deve ser 600",
   "keyword": "Then "
 });
 formatter.match({
@@ -249,7 +249,7 @@ formatter.result({
   "status": "failed"
 });
 formatter.step({
-  "name": "o produto deve ser 7",
+  "name": "o produto deve ser 10",
   "keyword": "Then "
 });
 formatter.match({
@@ -264,7 +264,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "que eu entrar com 0 na calculadora",
+  "name": "que eu entrar com 10 na calculadora",
   "keyword": "Given "
 });
 formatter.match({
@@ -295,7 +295,7 @@ formatter.result({
   "status": "failed"
 });
 formatter.step({
-  "name": "o produto deve ser 40",
+  "name": "o produto deve ser 400",
   "keyword": "Then "
 });
 formatter.match({

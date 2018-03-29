@@ -14,6 +14,6 @@ Feature: Multiplicacao
 
     Examples: 
       | input_1 | input_2 | output |
-      | 20      | 30      | 50     |
-      | 2       | 5       | 7      |
-      | 0       | 40      | 40     |
+      | 20      | 30      | 600     |
+      | 2       | 5       | 10      |
+      | 10       | 40      | 400     |
