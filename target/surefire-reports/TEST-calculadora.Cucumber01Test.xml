@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="calculadora.Cucumber01Test" time="0.932" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="calculadora.Cucumber01Test" time="0.917" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -61,12 +61,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Divisao" name="dividir dois numeros inteiros" time="0.15"/>
-  <testcase classname="Divisao" name="dividir um numero por zero" time="0.007"/>
-  <testcase classname="Multiplica" name="multiplicacao dois numeros" time="0.02"/>
-  <testcase classname="Multiplica" name="multiplicacao dois numeros" time="0.027"/>
-  <testcase classname="Multiplica" name="multiplicacao dois numeros" time="0.019"/>
-  <testcase classname="Soma" name="Adicionar dois numeros" time="0.018"/>
-  <testcase classname="Soma" name="Adicionar dois numeros" time="0.027"/>
-  <testcase classname="Soma" name="Adicionar dois numeros" time="0.018"/>
+  <testcase classname="Divisao" name="dividir dois numeros inteiros" time="0.149"/>
+  <testcase classname="Divisao" name="dividir um numero por zero" time="0.006"/>
+  <testcase classname="Multiplica" name="multiplicacao dois numeros" time="0.007"/>
+  <testcase classname="Multiplica" name="multiplicacao dois numeros" time="0.006"/>
+  <testcase classname="Multiplica" name="multiplicacao dois numeros" time="0.004"/>
+  <testcase classname="Soma" name="Adicionar dois numeros" time="0.009"/>
+  <testcase classname="Soma" name="Adicionar dois numeros" time="0.032"/>
+  <testcase classname="Soma" name="Adicionar dois numeros" time="0.02"/>
+  <testcase classname="Subtrair" name="subtrair dois numeros" time="0.016"/>
+  <testcase classname="Subtrair" name="subtrair dois numeros" time="0.007"/>
+  <testcase classname="Subtrair" name="subtrair dois numeros" time="0.013"/>
 </testsuite>
