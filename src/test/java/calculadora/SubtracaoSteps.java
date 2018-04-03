@@ -16,21 +16,21 @@ import static org.junit.Assert.*;
  * @author Coelho
  */
 public class SubtracaoSteps {
-    
+
     Calculadora calc = new Calculadora();
 
-    @Given("^que eu entrei (.*) na calculadora subtracao$")
-    public void que_eu_entrei_na_calculadora_subtracao$(int num) throws Exception {
+    @Given("^que eu entrei para sub (.*) na calculadora de sub$")
+    public void que_eu_entrei_para_sub_na_calculadora_de_sub$(int num) throws Exception {
         calc.entrarNumero01(num);
     }
 
-    @Given("^eu entrei (.*) na calculadora subtracao$")
-    public void eu_entrei_na_calculadora_subtracao$(int num) throws Exception {
-        calc.entrarNumero02(num);
+    @Given("^eu entrei para sub (.*) na calculadora de sub$")
+    public void eu_entrei_para_sub_na_calculadora_de_sub(int arg1) throws Exception {
+        calc.entrarNumero02(arg1);
     }
 
-    @When("^eu pressionar sub subtracao$")
-    public void eu_pressionar_sub_subtracao$() throws Exception {
+    @When("^eu pressionar sub subtracao de sub$")
+    public void eu_pressionar_sub_subtracao_de_sub$() throws Exception {
         calc.subtrair();
     }
 
@@ -39,5 +39,5 @@ public class SubtracaoSteps {
         int res = calc.getResultado();
         assertEquals(num, res);
     }
-    
+
 }
